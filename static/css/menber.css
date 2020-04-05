@@ -1,0 +1,147 @@
+
+*{
+	font-family:微軟正黑體;
+	/*border: solid 1px ;	  */
+} 
+
+h1{
+	font-size:18px;	
+	font-weight:bold;
+	color: #848484;
+}
+
+p{
+	font-size:15px;	
+	font-weight:bold;
+	color: #848484;
+}
+
+hr{
+	border-top: 1px solid #848484;
+}
+
+
+h5{
+	font-size:15px;	
+	font-weight:bold;
+	color: #848484;
+}
+
+td{
+	font-size:15px;	
+	font-weight:bold;
+	color: #727272;
+	
+}
+
+th{
+	font-size:15px;	
+	font-weight:bold;
+	color: #727272;
+	
+}
+
+
+
+
+#USDT_YES{
+	visibility: hidden;
+}
+
+#WUC_YES{
+	visibility: hidden;
+}
+
+#input_recommender{
+	visibility:visible;
+}
+
+#invest{
+	visibility: hidden;
+}
+
+#input_coupon{
+	visibility: hidden;
+}
+
+#only_owner{
+	visibility: hidden;
+}
+
+#Insufficient_balance{
+	visibility: hidden;
+}
+
+
+
+.my_card{
+	background-color: #F8F9FA;
+	padding: 11px;
+	margin: 3px;
+	border-radius: 8px;	
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+}
+
+.my_card2{
+	background-color: #F8F9FA;	
+	margin: 3px;
+	border-radius: 8px;	
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+}
+
+.my_card3{	
+	background-color: #F8F9FA;	
+	margin: 3px;
+	border-radius: 8px;	
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+}
+
+.large_word{
+
+	font-size:28px;	
+	font-weight:bold;
+	color: #727272;
+
+}
+
+.reciprocal{	
+	background-color: #8d8e8e;
+	color: white;
+	border-radius: 8px;
+	padding: 10px;
+	font-size: 15px;
+	margin: 8px;
+	box-shadow: 3px 3px 3px rgba(0%,0%,0%,0.10);
+}
+
+.box{
+	box-shadow: 3px 3px 3px rgba(0%,0%,0%,0.10);
+	border-radius: 8px;
+}	
+
+
+@media (max-width: 414px) { 
+
+	h5{
+		font-size: 13px;
+	}
+
+	td{
+		font-size: 12px;		
+	}
+
+	th{
+		font-size: 12px;		
+	}
+
+	.my_card{
+		margin: 6px 3px;
+	}
+
+	.my_card2{
+		margin: 6px 3px;
+	}
+
+ }
+
+

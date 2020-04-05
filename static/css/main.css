@@ -1,0 +1,148 @@
+  *{
+	  font-family:微軟正黑體;
+	  /*border: solid 1px ;	  */
+	} 
+
+	a{
+		color: #8b8c8e;					
+	}
+	
+
+	p{
+		font-size: 13px;
+		color: #7f7f7f;
+
+	}
+
+	h1{
+		color: #4A4A4A;
+		font-size: 28px;
+		font-weight:bold;
+	}
+
+	h4{
+		color: #4A4A4A;
+		font-size: 18px;
+		font-weight:bold;
+	}
+
+	h5{
+		
+		color: #939496;
+		font-weight:bold;		
+
+	}
+
+	.banner{
+		border-radius: 8px; 
+		overflow: hidden;
+		box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+  			
+	}
+
+	.card_link{
+		margin-top:8px;		
+		padding: 60px;
+		box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+		transform: translate(-3px,-3px);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+  		
+	}
+
+	.card_link:hover{		
+		box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+ 		transform: translate(-1px,-1px);
+ 		transition: 0.5s;		
+	}
+	
+	
+
+	.intro_part{
+		background-color: #f8f9fa;		
+		padding-bottom:30px;
+		padding-top: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.intro_img{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 60px;
+	}
+
+	.intro_depiction{	
+		padding: 30px;
+		padding-top:100px; 
+	}
+
+	.intro_lottery{
+
+		background-color: #f4fff6;		
+		padding-bottom:30px;
+		padding-top: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.lottery_img{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 60px;
+	}
+
+	.lottery_tilte{
+		border-radius:8px;
+		padding: 8px;
+		background-color:#2d9b78;
+		color: white;
+		margin-bottom: 15px; 	
+	}
+
+
+
+	
+
+
+	@media (max-width: 767px) {
+
+	h1{
+		font-size: 23px;		
+	}	
+
+	.intro_img{	
+		padding-bottom:10px;
+	}	
+
+	.intro_depiction{			
+		padding-top:3px; 			
+	}
+
+	
+		
+	}
+	
+	@media (max-width: 320px) {
+
+	h1{
+		font-size: 18px;			
+	}	
+	
+		
+	}
+
+
+
+	
+
+
+	
+	
+ 

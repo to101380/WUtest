@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154888716-1"></script>	
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+ <!-- AOS animate -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+<!-- Customized css -->
+<link href="./static/css/menber.css" rel="stylesheet">
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<!-- Web3 -->
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script>
+
+<link rel="icon" href="https://upload.cc/i1/2020/01/30/CkRU5P.png" type="image/x-icon">
+<link rel="shortcut icon" href="https://upload.cc/i1/2020/01/30/CkRU5P.png" type="image/x-icon" / >
+
+
+
+	<title> WEBUSDT </title>
+
+</head>
+<body>
+<!-- navbar -->
+	<section style="box-shadow: 0px 0px 8px rgba(0,0,0,0.4);">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <div class="row align-items-end" >	
+		  	  <div>	
+			  <a class="navbar-brand" href="./index.html" style="margin-left: 30px; margin-right: 0px;">
+			  	<img src="https://upload.cc/i1/2020/01/30/CkRU5P.png" width="69" height="53" alt="">	  	
+			  </a>
+			  </div>
+			  <div>
+			  <a class="navbar-brand" href="./index.html">
+			  	<h5 style="margin-top: 8px;"> WEBUSDT </h5>	  	
+			  </a>
+			  </div>
+		  </div>
+		</nav>
+	</section>
+<!-- content -->
+	<section style="padding-top:100px; ">
+		<div class="container">
+		  <div class="row justify-content-md-center">
+		    <div class="col-12 text-center ">
+		      <h1 style="font-size: 35px; margin: 30px;"> 遊戲結束 </h1>
+		    </div>	    
+		  </div>		  
+		</div>
+	</section>
+	<section>
+		<div class="container">
+		  <div class="row justify-content-md-center">
+		    <div class="col-12 text-center ">
+		      <h1> 最後獎池累積金額落入 : </h1>
+		      <h1><span id="last_user"></span></h1>
+		    </div>	    
+		  </div>		  
+		</div>
+	</section>
+	<section style="padding:80px 0px; ">		
+		<div class="container">
+		  <div class="row justify-content-md-center">
+		    <div class="col-12 text-center ">    
+		      <div class="card box">
+				  <div class="card-header">
+				     <h1>我是<span id="my_address"></span></h1>
+				  </div>
+				  <div class="card-body">
+				  	<table class="table table-sm">					  
+					  <tbody>
+					    <tr>
+					      <th scope="row">我尚未出金的球數 :  </th>
+					      <td colspan="2"><span id="enter_02"></span></td>					   
+					    </tr>
+					    <tr>
+					      <th scope="row">一顆球的金額</th>
+					      <td colspan="2"> 12 USDT</td>					    
+					    </tr>
+					    <tr>
+					      <th scope="row">總金額</th>
+					      <td colspan="2"><span id="total_enter_02"> </span> USDT</td>					 
+					    </tr>
+					  </tbody>
+					</table>		  	
+		      		<button type="button" class="btn btn-primary" onclick="withdrawn();">提領</button>
+		      		<div class="row justify-content-center" style="margin-top: 30px;">
+			      		<div class="reciprocal" id="timer_day"></div>
+			      		<div class="reciprocal" id="timer_hr"></div>
+			      		<div class="reciprocal" id="timer_min"></div>
+			      		<div class="reciprocal" id="timer_sec"></div>
+		      		</div>
+		      		<p style="color: #ff0000;"> !! 時間倒數結束之後便不能在提領 !!</p>
+				  </div>
+			  </div>
+		    </div>	    
+		  </div>		  
+		</div>
+	</section>
+
+	
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
+<!-- Customized js -->
+<script src="./static/js/menber.js"></script>
+
+</body>
+</html>
+
+
